@@ -5,7 +5,7 @@
     "name" : "Porotos con riendas",
     "description" : "Plato típico chileno",
     "difficulty"  : 8,
-    "prep_time" : 90, // tipo:time or something
+    "prep_time" : 90,
     "reviews" : [
         {
             "user" : "Nati",
@@ -49,13 +49,13 @@
             "media" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-            "description" : "Cortar zapallo en cuadritos",,
-            "time" : 5, // tipo:time or something
+            "description" : "Cortar zapallo en cuadritos",
+            "time" : 5,
             "media" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREBUQEhMTFRUXFxoVFhcYGBYXHRseGhkdFh0aGx0YHSkgGB8mGx0YITEjJykrLy4vHx8zODMsNygtLisBCgoKDg0NGQ8PGyscHSU3Nzc3LS0tMS0sNTcyKzgrKzcrNysrNy0rLDc1ODcrKy0rKysrKysvLSstKysrKysrK//AABEIANUA7QMBIgACEQEDEQH/xAAcAAEBAAMBAQEBAAAAAAAAAAAABgQFBwEDAgj/xABHEAABAwMBBQUEBggEAwkAAAABAAIDBAURIQYHEjFREyJBYXEUMoGRF0JSlKGxFSMkM1NlktFicoLBFlTwJTRjc5OistLx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEAAwEAAAAAAAAAAAAAAAABAjFxEf/aAAwDAQACEQMRAD8A7UiIgIiICIiAiIgIiICLx"
         },
         {
             "description" : "Sellar porotos junto al sofrito" ,
-            "time" : 3 // tipo:time or something
+            "time" : 3
         },
         {
             "description" : "Agregar agua a gusto"
