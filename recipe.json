@@ -1,0 +1,74 @@
+// Recipe
+{
+    "_id" : 1,
+    "autor" : "Diego",
+    "name" : "Porotos con riendas",
+    "description" : "Plato típico chileno",
+    "difficulty"  : 8,
+    "prep_time" : 90, // tipo:time or something
+    "reviews" : [
+        {
+            "user" : "Nati",
+            "date" : "08/08/2020",
+            "calification" : 7,
+            "likes" : 4,
+            "difficulty": 8,
+            "commentary" : "Servirlo con merquén es para mensos"
+        },
+        {
+            "user" : "Maxi",
+            "date" : "03/05/2020",
+            "calification" : 3,
+            "likes" : 4,
+            "difficulty": 6,
+            "commentary" : "Servirlo con merquén es para mensos"
+        }
+    ],
+    "servings" : 4,
+    "ingredients" : [
+        {
+            "name" : "Poroto",
+            "messure" : "taza",
+            "quantity" : 1
+        },
+        {
+            "name" : "Ají de color",
+            "messure" : "cucharita",
+            "quantity" : 0.5
+        },
+        {
+            "name" : "Zapallo",
+            "messure" : "gramos",
+            "quantity" : 300
+        }
+    ],
+    "steps" : [
+        {
+            "description" : "Hacer un sofrito",
+            "time" : 5, // tipo:time or something
+            "media" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+            "description" : "Cortar zapallo en cuadritos",,
+            "time" : 5, // tipo:time or something
+            "media" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREBUQEhMTFRUXFxoVFhcYGBYXHRseGhkdFh0aGx0YHSkgGB8mGx0YITEjJykrLy4vHx8zODMsNygtLisBCgoKDg0NGQ8PGyscHSU3Nzc3LS0tMS0sNTcyKzgrKzcrNysrNy0rLDc1ODcrKy0rKysrKysvLSstKysrKysrK//AABEIANUA7QMBIgACEQEDEQH/xAAcAAEBAAMBAQEBAAAAAAAAAAAABgQFBwEDAgj/xABHEAABAwMBBQUEBggEAwkAAAABAAIDBAURIQYHEjFREyJBYXEUMoGRF0JSlKGxFSMkM1NlktFicoLBFlTwJTRjc5OistLx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEAAwEAAAAAAAAAAAAAAAABAjFxEf/aAAwDAQACEQMRAD8A7UiIgIiICIiAiIgIiICLx"
+        },
+        {
+            "description" : "Sellar porotos junto al sofrito" ,
+            "time" : 3 // tipo:time or something
+        },
+        {
+            "description" : "Agregar agua a gusto"
+        },
+        {
+            "description" : "Condimentar caldo a gusto"
+        },
+        {
+            "description" : "Agregar fideos"
+        }
+    ]
+}
+// Revisar unidades de "date" y "time" y "prep_time" (mismo que time creo), 
+// Como agregar imagen en media (link o base64 o algo por el estilo)
+// Discutir embedded o reference, dependiendo de los casos de uso (query performance y verbosidad, o subset patterns)
+// Documento no puede pesar mas de 16 mg (mala práctica), quizás externalizar la data
