@@ -45,7 +45,7 @@
     "steps" : [
         {
             "description" : "Hacer un sofrito",
-            "time" : 5, // tipo:time or something
+            "time" : 5,
             "media" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
